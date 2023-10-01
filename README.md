@@ -1,5 +1,5 @@
 
-#Using particle swarm optimization to lower the gate count of combinational circuits.
+##Using particle swarm optimization to lower the gate count of combinational circuits.
 
 Particle swarm optimization:
 
@@ -43,3 +43,10 @@ The equations for updating particle’s velocity and position are:
 •	 Vi+1 = W* Vi + C1* rand1 * (pbest – X1) + C2 * rand2 * (gbest – X1)  
 •	 Xi+1 = Vi+1 + Xi  
 Where Vi and Xi represent the particle’s velocity and position of previous iteration; Vi+1 and Xi+1 represent the particle’s velocity and position of current iteration. W is the weight that controls the exploration and exploitation of search space and i is the iteration number pbest and gbest have been explained before. C1 and C2 are acceleration constants that change the velocity of particle towards pbest and gbest. rand1 and rand2 are the two uniformly distributed random functions whose value lies in {0,1}  . Experimentally the value of W has been taken as 0.9. Values of acceleration constants C1 and C2 have been taken as 2. 
+
+##Results for full adder sum
+![fulladderresult1](https://github.com/SatyajitMondal27/pso_combinational_circuits/assets/124804860/2821023e-81fb-4e8a-b7f7-1e39081704ad)  
+![fulladderresult2](https://github.com/SatyajitMondal27/pso_combinational_circuits/assets/124804860/ddc377f8-d939-4a39-bcd5-bc11620bdc7d)  
+![fulladderresult3](https://github.com/SatyajitMondal27/pso_combinational_circuits/assets/124804860/432d1723-91d3-4541-8774-8aa705e846cc)  
+
+

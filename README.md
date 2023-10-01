@@ -1,5 +1,4 @@
-
-##Using particle swarm optimization to lower the gate count of combinational circuits.
+#Using particle swarm optimization to lower the gate count of combinational circuits.
 
 Particle swarm optimization:
 
